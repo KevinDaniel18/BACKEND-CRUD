@@ -30,5 +30,8 @@ python manage.py makemigrations employee
 python manage.py migrate
 ```
 
+## Descargar el PDF de la documentación
+
+Puedes descargar la documentación completa en formato PDF [aquí](/public/documentacion.pdf).
 
 Este README.md proporciona una guía completa sobre cómo configurar el backend, la base de datos y el servidor de correos, junto con las explicaciones necesarias para cada paso.
