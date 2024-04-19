@@ -30,6 +30,14 @@ python manage.py makemigrations employee
 python manage.py migrate
 ```
 
+## Ejecucion del proyecto 
+
+Ejecuta el siguiente comando para correr la API REST:
+
+```bash
+python manage.py runserver 
+```
+
 ## Descargar el PDF de la documentación
 
 Puedes descargar la documentación completa en formato PDF [aquí](/public/documentacion.pdf).
