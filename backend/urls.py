@@ -17,7 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+from employee import views as employee_views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('employee/', include('employee.urls'))
+    path('employee/', include('employee.urls')),
+    path('employeeList/', employee_views.EmployeeView.as_view({'get': 'list'})),
 ]
